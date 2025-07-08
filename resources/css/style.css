@@ -131,7 +131,10 @@ h2{
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
+    letter-spacing: 1px;
 }
+
+
 
 .long-copy{
     line-height: 145%;
@@ -145,6 +148,39 @@ h2{
 
 .welcome {
     text-align: center;
-    margin-right:45px;
     margin-bottom: 30px;
+}
+
+h3{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 110%;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: "";
+    width: 100px;
+    margin:0 auto;
+    margin-top: 30px;
+}
+
+.welcome:after{
+    width: 130px;
+    height: 3px;
+}
+
+.get-fast-food:after{
+    width: 200px;
+}
+
+.ion-icon{
+    font-size: 200%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
 }

@@ -119,9 +119,8 @@ h1{
     border-bottom: 2px solid #e67e22;
 
 }
-
-section{
-    padding: 40px 0 85px 0;
+.long-copy{
+    padding: 40px 0 0 0;
 }
 
 h2{
@@ -224,4 +223,89 @@ h2:after{
     transform: scale(1.1);
     filter: brightness(1);
     z-index: 1; 
+}
+
+.section-feature .long-copy{
+    margin-bottom: 30px;
+}
+
+.works{
+    display:inline-flex;
+    margin: 40px;
+    padding: 0px;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.works h2{
+    width: 100%;
+    padding-left:100px;
+    margin-bottom: 0px;
+}
+
+
+.works-step{
+    margin: 50px;
+    margin-top: 0px;
+}
+
+.steps-box:first-child{
+    text-align: center;
+    padding-right:3%;
+    margin-top: 30px;
+
+}
+
+.steps-box:last-child{
+    padding-left: 3%;
+    margin-top: 35px;
+}
+
+.section-steps{
+    width: 100%;
+    height: 888px;
+    background-color: #f4f4f4;
+    overflow: hidden; 
+}
+
+
+.steps-box{
+    margin: 0px;
+    padding: 0px;
+}
+
+.app-screen{
+    width:70%;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.works-step div{
+    color: #e67e22;
+    border: 4px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 2.5px;
+    margin-right: 25px;
+    float: left;
+    font-size:150% ;
+}
+
+.btn-app img{
+    height: 55px;
+    width: auto;
+    padding-right: 30px;
+}
+
+.clearfix{zoom: 1}
+.clearfix:after{
+    content: '-';
+    clear:both;
+    display: block;
+    height: 0;
+    visibility: hidden;
 }

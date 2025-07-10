@@ -301,6 +301,11 @@ h2:after{
     padding-right: 30px;
 }
 
+.btn-app:link,
+.btn-app:visited{
+    border: 0;
+}
+
 .clearfix{zoom: 1}
 .clearfix:after{
     content: '-';
@@ -316,14 +321,61 @@ h2:after{
     height: 40px;
 }
 
+.section-cities{
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+
 .title-cities{
-    padding: 25px;
+    padding: 30px;
+    padding-left: 0px;
 }
 
 .img-place{
     display: inline-block;
-    overflow: hidden;
-    /* padding: 30px; */
-    width:250px;
-    height: 250px;
+    overflow:  hidden;
+    width: 255px;
+    height: 255px;
+    display: block;
+    height: 255px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    margin-bottom: 10px;
+}
+
+
+.photo-city{
+    padding: 0px;
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.icon-class{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+
+a:link,
+a:visited{
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 1px;
+}
+
+a:hover,
+a:active{
+    color: #555;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s, color 0.5s;
 }

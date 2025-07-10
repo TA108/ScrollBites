@@ -315,3 +315,15 @@ h2:after{
     align-items: flex-end; 
     height: 40px;
 }
+
+.title-cities{
+    padding: 25px;
+}
+
+.img-place{
+    display: inline-block;
+    overflow: hidden;
+    /* padding: 30px; */
+    width:250px;
+    height: 250px;
+}

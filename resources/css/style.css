@@ -309,3 +309,9 @@ h2:after{
     height: 0;
     visibility: hidden;
 }
+
+.one-line {
+    display: flex;
+    align-items: flex-end; 
+    height: 40px;
+}

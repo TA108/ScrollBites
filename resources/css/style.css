@@ -32,6 +32,7 @@ header{
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('img/HeroImage.png');
     height: 100vh;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 
@@ -379,3 +380,53 @@ a:active{
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s, color 0.5s;
 }
+
+.section-review{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/food-bg.jpg");
+    color:white;
+    overflow: hidden;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section-review h2{
+    margin: 50px;
+    margin-top: 70px;
+}
+
+.review-image img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    margin-top: 30px;
+    font-weight: 75;
+    position: relative;
+}
+
+cite{
+    font-size: 90%;
+    display: block;
+    margin-top: 35px;
+}
+
+blockquote::before {
+    content: '“';
+    font-size: 500%;
+    display: inline-block;
+    line-height: 0.5; 
+    color: #ccc;     
+    position: absolute;
+    top: -12px;
+    left: -5px;
+}
+
+

@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 
-html{
+html,
+body{
     background-color: white;
     color: black;
     font-family: Lato, sans-serif;
     font-weight: 300;
     font-size: 24px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .row{
@@ -346,7 +348,6 @@ h2:after{
     width: 255px;
     height: 255px;
     display: block;
-    height: 255px;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); 

@@ -325,12 +325,14 @@ h2:after{
 .section-cities{
     overflow: hidden;
     margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 
 .title-cities{
     padding: 30px;
     padding-left: 0px;
+    padding-top: 40px;
 }
 
 .img-place{

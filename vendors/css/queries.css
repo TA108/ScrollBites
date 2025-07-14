@@ -247,11 +247,151 @@
     }
 }
 
+/* Mobile Navigation */
 @media only screen and (max-width: 767px) {
+    .main-nav {
+        display: none;
+        width: 100%;
+        float: none;
+        background-color: #333;
+        text-align: center;
+        padding: 20px 0;
+    }
 
-}
+    .main-nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .mobile-nav-icon {
+        display: block;
+        float: right;
+        font-size: 200%;
+        color: white;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    .mobile-nav-icon ion-icon {
+        font-size: 36px;
+    }
+
+    .main-nav.open {
+        display: block;
+    }
+    
+    .title-cities{
+        font-size: 120% !important;
+        width: 350px !important;
+        padding: 0px;
+    }
+
+
+
 
 @media only screen and (max-width: 480px) {
 
+    .section-form h2{
+        margin: 0px;
+        width: 300px;
+        font-size: 100%;
+    }
+
+    .labels{
+        font-size: 80%;
+    }
+
+    input select textarea{
+        font-size: 70%;
+    }
 }
+    
+    input[type=text],
+    input[type=email],  
+    select,
+    textarea{
+        width: 100%;
+        padding: 0px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        display: block;
+        margin: 10px auto;
+    }
+
+    textarea{
+        height: 30%;
+    }
+
+    section{
+        padding: 25px 0px;
+    }
+    .section-form{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .meal-photo img{
+        width: 33%;
+        border: none ;
+        border-radius: 10px ;
+    }
+    .clearfix li{
+        width: 50% !important;
+    }
+
+    .works h2{
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .steps-box{
+        width: 300px !important;
+        padding: 0px !important;
+        margin: 0px !important;
+        padding-bottom: 30px !important;
+    }
+    .footer div p{
+        width: 50%;
+    }
+
+    .hero-text-box{
+        width: 90%;
+        
+    }
+
+    .hero-text-box h1{
+        font-size: 200%;
+        
+    }
+    .btn{
+        width: 200px;
+        margin: 5px !important;
+        text-align: center;
+    }
+
+    header{
+        background-size:contain;
+    }
+
+    .img-place{
+        width: 250px;
+        height: 200px;
+        margin: 10px;
+    }
+    .photo-city h3{
+        width: 45%;
+        text-align: center !important;
+    }
+
+    .row{
+        padding: 0px;
+    }
+}
+
+/* Default: hide mobile icon on large screens */
+.mobile-nav-icon {
+    display: none;
+}
+
+
 

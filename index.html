@@ -21,21 +21,21 @@
                     <ion-icon name="chevron-collapse-outline"></ion-icon>
                 </a>
                 <ul class="main-nav clearfix">
-                    <li><a href="#">Food Delivery</a></li>
-                    <li><a href="#">How it Works</a></li>
-                    <li><a href="#">Our Cities</a></li>
-                    <li><a href="#">Sign-up</a></li>
+                    <li><a href="#feature">Food Delivery</a></li>
+                    <li><a href="#hiw">How it Works</a></li>
+                    <li><a href="#city">Our Cities</a></li>
+                    <li><a href="#sign">Sign-up</a></li>
                 </ul>
             </div>
             
         </nav>
         <div class="hero-text-box">
             <h1>Goodbye junk food<br>Hello Healthy food !!!</h1>
-            <a class="btn btn-full" href="#">I'm Hungry</a>
-            <a class="btn btn-ghost" href="#">Show Me More !!!</a>
+            <a class="btn btn-full" href="#plans">I'm Hungry</a>
+            <a class="btn btn-ghost" href="#feature">Show Me More !!!</a>
         </div>
     </header>
-    <section class="section-features">
+    <section class="section-features" id="feature">
         <div class="welcome-group">
             <br>
             <div class="long-copy">
@@ -115,7 +115,7 @@
                 </li>
             </ul>
         </section>
-        <section class="section-steps">
+        <section class="section-steps" id="hiw">
             <div class="row works">
                 <h2>How it works &mdash; Simple as 1, 2, 3</h2>
             </div>
@@ -147,7 +147,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-cities">
+        <section class="section-cities" id="city">
             <div class="row">
                 <h2 class="title-cities">We're Currently in these Cities</h2>
             </div>
@@ -217,25 +217,25 @@
             <div class="row">
                 <div class="col span_1_of_3 review-image">
                     <blockquote>
-                        “Freshlane has completely changed how I eat. I used to skip meals or grab fast food, but now I get fresh, delicious meals delivered right on time. It's affordable and tastes amazing!”
+                        Freshlane has completely changed how I eat. I used to skip meals or grab fast food, but now I get fresh, delicious meals delivered right on time. It's affordable and tastes amazing!
                         <cite><img src="resources/css/img/customer1.png" alt="Customer 1 Photo"> Sarah Johnson</cite>
                     </blockquote>
                 </div>
                 <div class="col span_1_of_3 review-image">
                     <blockquote>
-                        “I love how customizable the meal plans are. As a vegan, I often struggle to find good delivery options — but Freshlane nails it every single time. Highly recommend it!”
+                        I love how customizable the meal plans are. As a vegan, I often struggle to find good delivery options — but Freshlane nails it every single time. Highly recommend it!
                         <cite><img src="resources/css/img/customer2.png" alt="Customer 2 Photo"> Arjun Mehta</cite>
                     </blockquote>
                 </div>
                 <div class="col span_1_of_3 review-image">
                     <blockquote>
-                        “The quality of food and speed of delivery is unbeatable. I signed up for the high-protein plan and it's been a game changer for my fitness routine. Super convenient too!”
+                        The quality of food and speed of delivery is unbeatable. I signed up for the high-protein plan and it's been a game changer for my fitness routine. Super convenient too!
                         <cite><img src="resources/css/img/customer3.png" alt="Customer 3 Photo"> Emily Chen</cite>
                     </blockquote>
                 </div>
             </div>
         </section>
-        <section class="section-plans">
+        <section class="section-plans" id="plans">
             <div class="row">
                 <h2>Start eating healthy today</h2>
             </div>
@@ -307,7 +307,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-form">
+        <section class="section-form" id="sign">
             <div class="row">
                 <h2>We're happy to hear from you</h2>
             </div>
@@ -396,6 +396,34 @@
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+            } // End if
+        });
+        });
+    </script>
 
 </body>
 </html>

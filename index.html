@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="vendors/css/queries.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -69,7 +70,7 @@
                 <p>Vegan, keto, high-protein, or build your own — your meals, your way.</p>
             </div>
         </div>
-        <section class="section-meals">
+        <section class="section-meals" data-aos="fade-in" data-aos-duration="2000">
             <ul class="meals-showcase clearfix">
                 <li>
                     <figure class="meal-photo">
@@ -115,13 +116,13 @@
                 </li>
             </ul>
         </section>
-        <section class="section-steps" id="hiw">
+        <section class="section-steps" id="hiw" data-aos="fade-in" data-aos-duration="2000">
             <div class="row works">
                 <h2>How it works &mdash; Simple as 1, 2, 3</h2>
             </div>
             <div class="row">
                 <div class="col span_1_of_2 steps-box">
-                    <img src="resources/img/Phone.png" alt="phone-image" class="app-screen">
+                    <img src="resources/img/Phone.png" alt="phone-image" class="app-screen" data-aos="slide-left" data-aos-duration="2000">
                 </div>
                 <div class="col span_1_of_2 steps-box">
                     <div class="works-step">
@@ -147,13 +148,13 @@
                 </div>
             </div>
         </section>
-        <section class="section-cities" id="city">
+        <section class="section-cities" id="city" data-aos="fade-in" data-aos-duration="2000">
             <div class="row">
                 <h2 class="title-cities">We're Currently in these Cities</h2>
             </div>
             <div class="row">
             <div class="col span_1_of_4 photo-city">
-                <img src="resources/img/Brussels-Beligum.jpg" alt="Boston Skyline - Fan Pier" class="img-place">
+                <img src="resources/img/Brussels-Beligum.jpg" alt="Boston Skyline - Fan Pier" class="img-place" data-aos="slide-down" data-aos-duration="4000">
                 <h3>Brussel</h3>
                 <div class="city-feature">
                     <ion-icon name="person-circle-outline" class="icon-class"></ion-icon>1600+ Happy Eater
@@ -167,7 +168,7 @@
                 </div>
             </div>
             <div class="col span_1_of_4 photo-city">
-                <img src="resources/img/Helsinki-Finland.jpg"  alt="Chicago Cloud Gate - The Bean" class="img-place">
+                <img src="resources/img/Helsinki-Finland.jpg"  alt="Chicago Cloud Gate - The Bean" class="img-place" data-aos="slide-down" data-aos-duration="4000">
                 <h3>Chicago</h3>
                 <div class="city-feature">
                     <ion-icon name="person-circle-outline" class="icon-class"></ion-icon>1300+ Happy Eater
@@ -181,7 +182,7 @@
                 </div>
             </div>
             <div class="col span_1_of_4 photo-city">
-                <img src="resources/img/Istanbul.jpg"  alt="New York - Statue of Liberty" class="img-place">
+                <img src="resources/img/Istanbul.jpg"  alt="New York - Statue of Liberty" class="img-place" data-aos="slide-down" data-aos-duration="4000">
                 <h3>New York</h3>
                 <div class="city-feature">
                     <ion-icon name="person-circle-outline" class="icon-class"></ion-icon>2000+ Happy Eater
@@ -195,7 +196,7 @@
                 </div>
             </div>
             <div class="col span_1_of_4 photo-city">
-                <img src="resources/img/New-York.jpg"  alt="Washington Washington. - Lincoln Memorial" class="img-place">
+                <img src="resources/img/New-York.jpg"  alt="Washington Washington. - Lincoln Memorial" class="img-place" data-aos="slide-down" data-aos-duration="4000">
                 <h3>Washington D.C.</h3>
                 <div class="city-feature">
                     <ion-icon name="person-circle-outline" class="icon-class"></ion-icon>2700+ Happy Eater
@@ -210,7 +211,7 @@
             </div>
             </div>
         </section>
-        <section class="section-review">
+        <section class="section-review" data-aos="fade-in" data-aos-duration="2000">
             <div class="row">
                 <h2>Our Customer can't live without us</h2>
             </div>
@@ -235,14 +236,14 @@
                 </div>
             </div>
         </section>
-        <section class="section-plans" id="plans">
+        <section class="section-plans" id="plans" data-aos="fade-in" data-aos-duration="2000">
             <div class="row">
                 <h2>Start eating healthy today</h2>
             </div>
             <div class="row">
                 <!-- Premium Plan -->
                 <div class="col span_1_of_3">
-                    <div class="plan-box">
+                    <div class="plan-box" data-aos="zoom-in" data-aos-duration="2000">
                         <div>
                             <h3>Premium</h3>
                             <p class="plan-price">$399 <span> / month</span></p>
@@ -307,7 +308,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-form" id="sign">
+        <section class="section-form" id="sign" data-aos="fade-in" data-aos-duration="2000">
             <div class="row">
                 <h2>We're happy to hear from you</h2>
             </div>
@@ -423,6 +424,10 @@
             } // End if
         });
         });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 
 </body>

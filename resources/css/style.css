@@ -513,6 +513,10 @@ blockquote::before {
     margin: 40px;
 }
 
+.section-meals ul{
+    width: 100% !important;
+}
+
 .contact-form{
     width:77%;
     margin: 0 auto;

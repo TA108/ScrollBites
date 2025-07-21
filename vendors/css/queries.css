@@ -1,10 +1,21 @@
-@media only screen and (max-width: 1300px){
-        header h1{
+@media only screen and (max-width: 1370px){
+    header h1{
         padding-left:40px    
     }
-}
+    header{
+        height: 70vh;
+    }
 
-@media only screen and (max-width: 1200px) {
+    .clearfix{
+        width:80% !important;
+    }
+
+    header li{
+        padding: 0px;
+        margin: 0px !important;
+        margin-top: 0px !important;
+    }
+
     .hero-text-box{
         width: 100%;
         padding-left: 100px;
@@ -118,6 +129,160 @@
     }
     .clearfix li{
         padding: 10px 0 0px 30px;
+    
+}
+}
+
+@media only screen and (max-width: 1200px) {
+
+    header{
+        height: 70vh;
+    }
+
+    .clearfix{
+        width:80% !important;
+    }
+
+    header li{
+        padding: 0px;
+        margin: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .hero-text-box{
+        width: 100%;
+        padding-left: 100px;
+    }
+    .main-nav{
+        padding-right: 30px;
+    }
+    
+    .row{
+        padding: 0 2%;
+    }
+
+    .section-review h2{
+        margin: 50px;
+        margin-left: 0px;
+        width: 950px;
+    }
+
+    .section-review blockquote{
+        height: 400px;
+    }
+
+    .cite{
+        padding:20px
+    }
+
+    .title-cities{
+        width: 950px;
+    }
+    .meals-showcase{
+        overflow: hidden;
+    }
+    .meals-showcase img{
+        max-width: 70%;
+        height: 150px;
+        margin: 0px;
+        object-fit: cover;
+    }
+
+    .section-cities{
+        margin: 0;
+        overflow: hidden;
+        object-fit: cover;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    
+
+    .photo-city{
+        padding: 0px;
+        margin: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .photo-city h3{
+        font-size: 90%;
+    }
+
+    .img-place{
+        width:150px;
+        height:150px ;
+        margin-bottom: 0px;
+    }
+
+    .city-feature{
+        font-size: 80%;
+    }
+
+    .works{
+        font-size: 90%;
+    }
+
+    .works h2{
+        width: 85%;
+    }
+
+    .meal-photo img{
+        height: 150px;
+        width: 100%;
+        object-fit:cover;
+        overflow: hidden;
+        padding: 20px auto;
+    }
+
+    section{
+        padding: 0px;
+    }
+
+    .section-steps{
+        height: 1250px !important;
+    }
+
+    .section-plans div{
+        margin: 6.9px;
+    }
+
+
+    .review-image{
+        width: 300px;
+    }
+
+    .abnormal{
+        padding: 20px !important;
+        margin: 0px !important;
+    }
+
+    .section-meals{
+        padding: 0px;
+    }
+
+    .clearfix{
+        width: 100%;
+    }
+    .clearfix li{
+        padding: 10px 0 0px 30px;
+        overflow: hidden;
+        width: 25%;
+        margin: auto;
+    }
+
+    .section-meals ul{
+        padding-left: 0px;
+    }
+
+    .steps-box{
+        padding: 0px;
+        margin: 0px;
+        height: 100px !important;
+        overflow: hidden !important;
+    }
+
+    .works-step{
+        margin: 20px !important;
     }
 }
 
@@ -139,10 +304,7 @@
     .clearfix{
         width: 580px;
         margin: 0px;
-
     }
-
-
 
     body{
         font-size: 18px;
@@ -241,7 +403,6 @@
 
     .section-form{
         width: 500px;
-        overflow: hidden;
         height: auto;
     }
 
@@ -299,6 +460,26 @@
 
 @media only screen and (max-width: 480px) {
 
+    header{
+        height: 500px;
+        background-size: cover;   
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90vh;   
+    }
+
+    header h1{
+        padding: 0px;
+    }
+
+    header{
+        background-size:cover;
+    }
+
+    .welcome-group{
+        overflow: hidden;
+    }
+
     .section-form h2{
         margin: 0px;
         width: 300px;
@@ -325,6 +506,9 @@
         margin: 10px auto;
     }
 
+    .section-form{
+    }
+
     textarea{
         height: 30%;
     }
@@ -348,7 +532,11 @@
     .works h2{
         padding: 0px;
         margin: 0px;
+    }
 
+    .section-meals ul{
+        padding-top: 15px;
+        margin-left: 50px;
     }
 
     .steps-box{
@@ -368,16 +556,13 @@
 
     .hero-text-box h1{
         font-size: 200%;
-        
+
     }
+
     .btn{
         width: 200px;
         margin: 5px !important;
         text-align: center;
-    }
-
-    header{
-        background-size:contain;
     }
 
     .img-place{
@@ -388,10 +573,6 @@
     .photo-city h3{
         width: 45%;
         text-align: center !important;
-    }
-
-    .row{
-        padding: 0px;
     }
 }
 

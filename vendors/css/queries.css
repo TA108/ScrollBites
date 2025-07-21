@@ -57,7 +57,6 @@
 
     .section-cities{
         margin: 0;
-        overflow: hidden;
         object-fit: cover;
         margin-left: 0px;
         margin-bottom: 0px;
@@ -140,7 +139,13 @@
     }
 
     .clearfix{
-        width:80% !important;
+        width:750px !important;
+        padding: 0px !important;
+
+    }
+
+    .clearfix li{
+        width: 22% !important;
     }
 
     header li{
@@ -190,7 +195,6 @@
 
     .section-cities{
         margin: 0;
-        overflow: hidden;
         object-fit: cover;
         margin-left: 0px;
         margin-bottom: 0px;
@@ -238,9 +242,9 @@
         padding: 0px;
     }
 
-    .section-steps{
-        height: 1250px !important;
-    }
+    /* .section-steps{
+        overflow: hidden;
+    } */
 
     .section-plans div{
         margin: 6.9px;
@@ -270,14 +274,27 @@
         margin: auto;
     }
 
+    .section-form{
+        width: 100%;
+    }
+
+    .section-form h2{
+        padding: 0px;
+        margin: 50px 0px;
+    }
+
+    .section-form .row{
+        margin: 0px;
+    } 
+
     .section-meals ul{
         padding-left: 0px;
     }
 
-    .steps-box{
+    .section-steps .steps-box{
         padding: 0px;
+        padding-bottom: 10px;
         margin: 0px;
-        height: 100px !important;
         overflow: hidden !important;
     }
 
@@ -287,6 +304,7 @@
 }
 
 @media only screen and (max-width: 1023px) {
+
     .long-copy{
         width: 80%;
         margin-left: 10%;
@@ -301,17 +319,20 @@
         margin: 10px !important;
         margin-top: 35px !important;
     }
-    .clearfix{
-        width: 580px;
-        margin: 0px;
-    }
 
     body{
         font-size: 18px;
     }
+    .section-features{
+        width: 100% !important;
+    }
 
     section{
         padding: 60px 0px;
+    }
+
+    .section-features{
+        overflow: hidden;
     }
 
     .img-place{
@@ -340,13 +361,30 @@
     }
 
     .section-cities{
-        width: 700px;
+        width: 100%;
     }
 
     .section-cities h2{
         font-size: 30px;
     }
 
+    .section-form{
+        width: 100% !important;
+        overflow: hidden;
+    }
+    .section-form h2{
+        width: 100% !important;
+        overflow: hidden;
+        padding-bottom: 30px;
+    }
+    
+    .section-cities{
+        padding-top: 0px !important;
+    }
+
+    .welcome-group{
+        font-size: 150% !important;
+    }
 
     .title-cities{
         width:100% !important;
@@ -354,8 +392,10 @@
 
     .photo-city{
         size: 20% !important;
+        width: 25% !important;
         left: 10 !important;
         padding-right: 10px;
+        font-size: 150%;
     }
 
     .img-place{
@@ -375,12 +415,17 @@
     .section-meals ul{
         width: 100%;
     }
+    
+    .welcome-group{
+        overflow: hidden;
+        
+    }
 
     .section-steps{
         width: 100%;
         height: 100%;
         padding: 0px;
-        font-size: 90%;
+        font-size: 125%;
     }
 
     .section-review blockquote{
@@ -396,7 +441,10 @@
         margin: 5px;
     }
 
-    
+    .section-plans{
+        padding-top: 0px;
+    }
+
     .review-image{
         width: 250px;
     }
@@ -417,7 +465,7 @@
 }
 
 /* Mobile Navigation */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 770px) {
     .main-nav {
         display: none;
         width: 100%;
@@ -455,6 +503,24 @@
         padding: 0px;
     }
 
+    .section-meals{
+        width: 100%;
+    }
+
+    .section-meals img{
+        width: 40%;
+        height: 80% !important;
+        /* border-radius: 10%; */
+    }
+
+    .section-meals ul{
+        margin: 20px !important;
+        width: 100%;
+    }
+
+    .section-meals li{
+        padding-top: 30px;
+    }
 }
 
 

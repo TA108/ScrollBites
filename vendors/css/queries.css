@@ -1,3 +1,8 @@
+@media only screen and (max-width: 1300px){
+        header h1{
+        padding-left:40px    
+    }
+}
 
 @media only screen and (max-width: 1200px) {
     .hero-text-box{
@@ -136,6 +141,9 @@
         margin: 0px;
 
     }
+
+
+
     body{
         font-size: 18px;
     }
@@ -286,7 +294,7 @@
         padding: 0px;
     }
 
-
+}
 
 
 @media only screen and (max-width: 480px) {
@@ -304,7 +312,6 @@
     input select textarea{
         font-size: 70%;
     }
-}
     
     input[type=text],
     input[type=email],  

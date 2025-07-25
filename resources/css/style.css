@@ -616,3 +616,17 @@ footer {
 .social-links li a:visited{
     font-size: 160%;
 }
+
+
+/* .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+} */
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}

@@ -16,12 +16,13 @@
 <body>
     <header>
         <nav>
-            <div class="row nav">
+            <div class="row nav nav-container">
                 <img class="logo" src="resources/img/logo.jpg" alt="Logo Image">
                 <a class="mobile-nav-icon" id="nav-toggle">
-                    <ion-icon name="chevron-collapse-outline"></ion-icon>
+                    <ion-icon name="menu-outline" id="menu-icon"></ion-icon>
                 </a>
-                <ul class="main-nav clearfix">
+                <div class="hamburger" onclick="toggleMenu()">☰</div>
+                <ul class="main-nav clearfix" id="navlinks">
                     <li><a href="#feature">Food Delivery</a></li>
                     <li><a href="#hiw">How it Works</a></li>
                     <li><a href="#city">Our Cities</a></li>
@@ -399,6 +400,7 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <script>
         $(document).ready(function(){
         // Add smooth scrolling to all links
@@ -428,6 +430,11 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("show");
+        }
     </script>
 
 </body>

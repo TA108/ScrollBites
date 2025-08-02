@@ -1,0 +1,691 @@
+@media only screen and (max-width: 1370px){
+    header h1{
+        padding-left:40px    
+    }
+    header{
+        height: 70vh;
+    }
+
+    .clearfix{
+        width:80% !important;
+    }
+
+    header li{
+        padding: 0px;
+        margin: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .hero-text-box{
+        width: 100%;
+        padding-left: 100px;
+    }
+    .main-nav{
+        padding-right: 30px;
+    }
+    
+    .row{
+        padding: 0 2%;
+    }
+
+    .section-review h2{
+        margin: 50px;
+        margin-left: 0px;
+        width: 950px;
+    }
+
+    .section-review blockquote{
+        height: 400px;
+    }
+
+    .cite{
+        padding:20px
+    }
+
+    .title-cities{
+        width: 950px;
+    }
+    .meals-showcase{
+        overflow: hidden;
+    }
+    .meals-showcase img{
+        max-width: 70%;
+        height: 150px;
+        margin: 0px;
+        object-fit: cover;
+    }
+
+    .section-cities{
+        margin: 0;
+        object-fit: cover;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    
+
+    .photo-city{
+        padding: 0px;
+        margin: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .photo-city h3{
+        font-size: 90%;
+    }
+
+    .img-place{
+        width:150px;
+        height:150px ;
+        margin-bottom: 0px;
+    }
+
+    .city-feature{
+        font-size: 80%;
+    }
+
+    .works{
+        font-size: 90%;
+    }
+
+    .works h2{
+        width: 85%;
+    }
+
+    .meal-photo img{
+        height: 150px;
+        width: 200px;
+        object-fit:fill;
+        overflow: hidden;
+    }
+
+    section{
+        padding: 0px;
+    }
+
+    .section-steps{
+        height: 750px;
+    }
+
+    .section-plans div{
+        margin: 6.9px;
+    }
+
+
+    .review-image{
+        width: 300px;
+    }
+
+    .abnormal{
+        padding: 20px !important;
+        margin: 0px !important;
+    }
+    .section-meals{
+        padding: 0px;
+    }
+    .clearfix{
+        width: 100%;
+    }
+    .clearfix li{
+        padding: 10px 0 0px 30px;
+    
+}
+}
+
+@media only screen and (max-width: 1200px) {
+
+    header{
+        height: 70vh;
+    }
+
+    .clearfix{
+        width:750px !important;
+        padding: 0px !important;
+
+    }
+
+    .clearfix li{
+        width: 22% !important;
+    }
+
+    header li{
+        padding: 0px;
+        margin: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .hero-text-box{
+        width: 100%;
+        padding-left: 100px;
+    }
+    .main-nav{
+        padding-right: 30px;
+    }
+    
+    .row{
+        padding: 0 2%;
+    }
+
+    .section-review h2{
+        margin: 50px;
+        margin-left: 0px;
+        width: 950px;
+    }
+
+    .section-review blockquote{
+        height: 400px;
+    }
+
+    .cite{
+        padding:20px
+    }
+
+    .title-cities{
+        width: 950px;
+    }
+    .meals-showcase{
+        overflow: hidden;
+    }
+    .meals-showcase img{
+        max-width: 70%;
+        height: 150px;
+        margin: 0px;
+        object-fit: cover;
+    }
+
+    .section-cities{
+        margin: 0;
+        object-fit: cover;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    
+
+    .photo-city{
+        padding: 0px;
+        margin: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .photo-city h3{
+        font-size: 90%;
+    }
+
+    .img-place{
+        width:150px;
+        height:150px ;
+        margin-bottom: 0px;
+    }
+
+    .city-feature{
+        font-size: 80%;
+    }
+
+    .works{
+        font-size: 90%;
+    }
+
+    .works h2{
+        width: 85%;
+    }
+
+    .meal-photo img{
+        height: 150px;
+        width: 100%;
+        object-fit:cover;
+        overflow: hidden;
+        padding: 20px auto;
+    }
+
+    section{
+        padding: 0px;
+    }
+
+    /* .section-steps{
+        overflow: hidden;
+    } */
+
+    .section-plans div{
+        margin: 6.9px;
+    }
+
+
+    .review-image{
+        width: 300px;
+    }
+
+    .abnormal{
+        padding: 20px !important;
+        margin: 0px !important;
+    }
+
+    .section-meals{
+        padding: 0px;
+    }
+
+    .clearfix{
+        width: 100%;
+    }
+    .clearfix li{
+        padding: 10px 0 0px 30px;
+        overflow: hidden;
+        width: 25%;
+        margin: auto;
+    }
+
+    .section-form{
+        width: 100%;
+    }
+
+    .section-form h2{
+        padding: 0px;
+        margin: 50px 0px;
+    }
+
+    .section-form .row{
+        margin: 0px;
+    } 
+
+    .section-meals ul{
+        padding-left: 0px;
+    }
+
+    .section-steps .steps-box{
+        padding: 0px;
+        padding-bottom: 10px;
+        margin: 0px;
+        overflow: hidden !important;
+    }
+
+    .works-step{
+        margin: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .logo{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+    header li{
+        padding: 0px !important;
+        margin: 10px !important;
+        margin-top: 35px !important;
+    }
+
+    body{
+        font-size: 18px;
+    }
+    .section-features{
+        width: 100% !important;
+    }
+
+    section{
+        padding: 60px 0px;
+    }
+
+    .section-features{
+        overflow: hidden;
+    }
+
+    .img-place{
+        width:150px;
+        height:150px ;
+        margin-bottom: 0px;
+    }
+    .section-review h2{
+        margin: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .section-review .row{
+        padding: 0px;
+        margin-left: 50px;
+    }
+
+    .section-review{
+        width: 100%;
+        height: auto;
+
+    }
+    .review-image{
+        width:270px !important;
+    }
+
+    .section-cities{
+        width: 100%;
+    }
+
+    .section-cities h2{
+        font-size: 30px;
+    }
+
+    .section-form{
+        width: 100% !important;
+        overflow: hidden;
+    }
+    .section-form h2{
+        width: 100% !important;
+        overflow: hidden;
+        padding-bottom: 30px;
+    }
+    
+    .section-cities{
+        padding-top: 0px !important;
+    }
+
+    .welcome-group{
+        font-size: 150% !important;
+    }
+
+    .title-cities{
+        width:100% !important;
+    }
+
+    .photo-city{
+        size: 20% !important;
+        width: 25% !important;
+        left: 10 !important;
+        padding-right: 10px;
+        font-size: 150%;
+    }
+
+    .img-place{
+        width: 100px ;
+    }
+
+    .img-place .city-feature{
+        font-size: 90% ;
+    }
+
+    .section-meals img{
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+    }
+
+    .section-meals ul{
+        width: 100%;
+    }
+    
+    .welcome-group{
+        overflow: hidden;
+        
+    }
+
+    .section-steps{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        font-size: 125%;
+    }
+
+    .section-review blockquote{
+        width: 250px;
+        height: 250px ;
+    }
+
+    .section-features{
+        padding: 0px;
+    }
+
+    .section-plans div{
+        margin: 5px;
+    }
+
+    .section-plans{
+        padding-top: 0px;
+    }
+
+    .review-image{
+        width: 250px;
+    }
+
+    .section-form{
+        width: 500px;
+        height: auto;
+    }
+
+    .section-form h2{
+        margin: 0px;
+        width: 600px;
+    }
+
+    .lab label{
+        width: 120px;
+    }
+}
+
+/* Mobile Navigation */
+@media only screen and (max-width: 770px) {
+    .hamburger {
+        display: block;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+        margin-left: right;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        z-index: 200;
+    }
+
+    .main-nav.show {
+        display:grid;
+        justify-items: end;
+        width: 220px;
+        min-width: 0;
+        max-width: 90vw;
+        font-size: 18px;
+        margin: 0px;
+        list-style: none;
+        position: absolute;
+        right: 16px;                 
+        top: 70px; 
+        z-index: 200;
+    }
+
+    .main-nav {
+        display: none;
+        width: 100%;
+        float: none;
+        background-color: #333;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .main-nav li {
+        padding: 12px 24px;
+        color: #fff;
+        text-align: right;      
+        border-bottom: 1px solid rgba(255,255,255,0.08);
+        margin: 0;
+    }
+
+    .main-nav ul{
+        max-width: 50vh !important;
+
+    }
+
+
+    .mobile-nav-icon {
+        display: block;
+        float: right;
+        font-size: 200%;
+        color: white;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    .mobile-nav-icon ion-icon {
+        font-size: 36px;
+    }
+
+    .main-nav.open {
+        display: block;
+    }
+    
+    .title-cities{
+        font-size: 120% !important;
+        width: 350px !important;
+        padding: 0px;
+    }
+
+    .section-meals{
+        width: 100%;
+    }
+
+    .section-meals img{
+        width: 40%;
+        height: 80% !important;
+        /* border-radius: 10%; */
+    }
+
+    .section-meals ul{
+        margin: 20px !important;
+        width: 100%;
+    }
+
+    .section-meals li{
+        padding-top: 30px;
+    }
+    .nav-container {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        padding: 10px 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+    header{
+        height: 500px;
+        background-size: cover;   
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90vh;   
+    }
+
+    header h1{
+        padding: 0px;
+    }
+
+    header{
+        background-size:cover;
+    }
+
+    .welcome-group{
+        overflow: hidden;
+    }
+
+    .section-form h2{
+        margin: 0px;
+        width: 300px;
+        font-size: 100%;
+    }
+
+    .labels{
+        font-size: 80%;
+    }
+
+    input select textarea{
+        font-size: 70%;
+    }
+    
+    input[type=text],
+    input[type=email],  
+    select,
+    textarea{
+        width: 100%;
+        padding: 0px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        display: block;
+        margin: 10px auto;
+    }
+
+    textarea{
+        height: 30%;
+    }
+
+    section{
+        padding: 25px 0px;
+    }
+    .section-form{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .meal-photo img{
+        width: 33%;
+        border: none ;
+        border-radius: 10px ;
+    }
+    .clearfix li{
+        width: 50% !important;
+    }
+
+    .works h2{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .section-meals ul{
+        padding-top: 15px;
+        margin-left: 50px;
+    }
+
+    .steps-box{
+        width: 300px !important;
+        padding: 0px !important;
+        margin: 0px !important;
+        padding-bottom: 30px !important;
+    }
+    .footer div p{
+        width: 50%;
+    }
+
+    .hero-text-box{
+        width: 90%;
+        
+    }
+
+    .hero-text-box h1{
+        font-size: 200%;
+
+    }
+
+    .btn{
+        width: 200px;
+        margin: 5px !important;
+        text-align: center;
+    }
+
+    .img-place{
+        width: 250px;
+        height: 200px;
+        margin: 10px;
+    }
+    .photo-city h3{
+        width: 45%;
+        text-align: center !important;
+    }
+}
+
+/* Default: hide mobile icon on large screens */
+.mobile-nav-icon {
+    display: none;
+}
+
+
+
